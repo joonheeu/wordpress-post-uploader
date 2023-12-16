@@ -1,6 +1,6 @@
-# WordPressPostUploader
+# WordPressUploader
 
-WordPressPostUploader는 Python을 사용하여 WordPress 사이트에 게시글 및 미디어를 업로드하고, 게시글을 관리하는 도구입니다. 이 도구를 사용하면 프로그래매틱 방식으로 WordPress 사이트의 컨텐츠를 관리할 수 있습니다.
+WordPressUploader는 Python을 사용하여 WordPress 사이트에 게시글 및 미디어를 업로드하고, 게시글을 관리하는 도구입니다. 이 도구를 사용하면 프로그래매틱 방식으로 WordPress 사이트의 컨텐츠를 관리할 수 있습니다.
 
 ## 기능
 
@@ -23,7 +23,7 @@ WordPressPostUploader는 Python을 사용하여 WordPress 사이트에 게시글
 1. 프로젝트를 클론합니다.
 
    ```bash
-   git clone https://github.com/joonheeu/wordpress-post-uploader.git
+   git clone https://github.com/joonheeu/wordpress-uploader.git
    cd wordpress-post-uploader
    ```
 2. 필요한 라이브러리를 설치합니다.
@@ -42,7 +42,7 @@ WordPressPostUploader는 Python을 사용하여 WordPress 사이트에 게시글
 ### 사용 예제
 
 ```python
-from WordPressUploader import WordPressUploader
+from wp_uploader import WordPressUploader
 
 uploader = WordPressUploader()
 
